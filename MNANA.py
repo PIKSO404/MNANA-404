@@ -55,7 +55,7 @@ def sex():
 	density = random.choice(['2.0'])
 	width = random.choice(["1080"])
 	height = random.choice(["2400"])
-	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/Airtel;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/Redmi 10;FBSV/13;FBOP/1;FBCA/arm64-v8a:]"
+	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{density={density},width={width},height={height}}};FBLC/ru_RU;FBRV/{str(fbrv)};FBCR/MTS RUS;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A515F;FBSV/11;FBOP/19;FBCA/arm64-v8a:;]"
 	return ua
 #__________________LOGO____________
 logo=(f"""
@@ -74,7 +74,7 @@ logo=(f"""
  \033[38;5;46m\033[38;1mGITHUB      \033[1;97m➢  \x1b[38;5;46m  MNANA          \033[38;5;46m
  \033[38;5;46m\033[38;1mWATHSAPP    \033[1;97m➢  \033[38;5;46m  +21369491481       \033[38;5;38m
  \033[38;5;46m\033[38;5;46mTYPE        \033[1;97m➢    \x1b[1;38mFILE-CLONE           \033[38;5;46m
- \033[38;5;46m\x1b[1;96mVERSION     \033[1;97m➢    \033[1;91m\033[1;41m\033[1;97m 0.1 \033[;0m\033[1;91m\033[1;92                  \033[38;5;46m
+ \033[38;5;46m\x1b[1;96mVERSION     \033[1;97m➢    \033[1;91m\033[1;41m\033[1;97m 1.4 \033[;0m\033[1;91m\033[1;92                  \033[38;5;46m
 \033[38;5;46m×××××××××××××××××××××××××××××××××××××××\033[1;37m""")
 #__________________MAIN____________#
 def menu():
